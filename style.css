@@ -1,33 +1,58 @@
+/* Font is imported */
 @font-face {
     font-family: Libre;
     src: url(./LibreBaskerville-Regular.ttf);
 }
-div.meme-box{background-color: black;
+/* The box around each meme is formatted. */
+/* Margins and padding are used to keep all elements within the box and give spacing between boxes. */
+/* This effects everything within the div, including the meme image and text. */
+div.meme-box{
+    background-color: black;
     margin:auto;
     margin-bottom:50px;
     width: 700px;
     padding:10px;
     text-align: center;
     }
-img.meme{display:block;
+/* Formatting for the meme images themselves, separately from the text and surroundig box. */
+/* A white border is applied and the margin/width/display formatting keep it centered and consistently sized. */
+img.meme{
+    display:block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     border-style:solid;
     border-width:5px;
-    border-color:white}
-h1{font-family:Libre;
-letter-spacing:3px}
-body{background-image:url(./Images/waterbackground.jpg);
+    border-color:white
+}
+/* Font is set for the h1 heading only, 3 pixel spacing is added to improve readability. */
+h1{
+    font-family:Libre;
+    letter-spacing:3px
+}
+/* Background is set. */
+/* no-repeat prevents the image from looping, cover expands the image to fill the screen, center keeps it centered. */
+body{
+    background-image:url(./Images/waterbackground.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    background-position:center}
-header{background-color:black;
+    background-position:center
+}
+/* Header and footer formatting to help frame the page. */
+/* A negative margin is used so that the black space fills to the edge of the screen. */
+header{
+    background-color:black;
     padding:10px;
     margin: -8px;
     margin-bottom:50px;
-    text-align:center}
-footer{background-color:black;
+    text-align:center
+}
+footer{
+    background-color:black;
     padding:10px;
-    margin: -8px;}
-h3{text-indent:30px}
+    margin: -8px;
+}
+/* An indent is applied to the heading at the bottom so that it is aligned with the list below it. */
+h3{
+    text-indent:25px
+}
