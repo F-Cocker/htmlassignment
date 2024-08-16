@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Libre;
+    src: url(./LibreBaskerville-Regular.ttf);
+}
+div.meme-box{background-color: black;
+    margin:auto;
+    margin-bottom:50px;
+    width: 700px;
+    padding:10px;
+    text-align: center;
+    }
+img.meme{display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-style:solid;
+    border-width:5px;
+    border-color:white}
+h1{color:white;
+font-family:Libre;
+letter-spacing:3px}
+p{color:white;}
+body{background-image:url(./vapor.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center}
